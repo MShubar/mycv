@@ -77,3 +77,10 @@ body {
   width: 100vw;
   object-fit: contain;
 }
+#footer > #socials {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
