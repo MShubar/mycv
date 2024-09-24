@@ -74,13 +74,23 @@ body {
 
 #footer > #logo {
   height: 100%;
-  width: 100vw;
-  object-fit: contain;
+  width: 15%;
 }
 #footer > #socials {
   display: flex;
-  flex-direction: column;
-  width: 60%;
-  height: 60%;
-  object-fit: contain;
+  flex-direction: row;
+  height: 30%;
+  gap: 20px;
+}
+
+#socials > #button {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  padding: 0;
+  background: none;
+}
+#button.image {
+  width: 30px;
+  height: 30px;
 }
